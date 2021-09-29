@@ -1,0 +1,411 @@
+@import url('fonts.css');
+@import url('null.css');
+
+
+.wrapper {
+	max-width: 1400px;
+	padding: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #606060;
+	color: rgb(206, 206, 206);
+}
+
+.main__title {
+	font-family: 'Oswald';   
+	font-size: 30px;
+	margin-bottom: 30px;
+}
+
+.block {
+	font-family: "Exo 2";
+}
+
+.block__subtitle {
+	font-family: 'Kurale';
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.color {
+	color: #FB7D79;
+}
+
+.colors {
+	color: #00CCCC;
+	font-size: 24px;
+}
+
+
+
+/*==== solid ==========================================================================*/
+.solid {
+	border: 2px solid rgb(243, 216, 216);
+	font-size: 18px;
+	
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+/*==== dotted ==========================================================================*/
+.dotted {
+	border: 5px dotted #38b847;
+	font-size: 18px;
+	
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+/*==== dashed ==========================================================================*/
+.dashed {
+	border: 5px dashed #FE5825;
+	font-size: 18px;
+	
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+/*==== double ==========================================================================*/
+.double {
+	border: 7px double #FE5825;
+	font-size: 18px;
+	
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+/*==== color__brd ===================================================================================*/
+.color__brd {
+	border-top: 3px solid rgb(190, 3, 3);
+	border-right: 3px solid #00db1d;
+	border-bottom: 3px solid rgb(0, 55, 236);
+	border-left: 3px solid rgb(244, 248, 2);
+	
+	font-size: 18px;
+	
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+/*==== outline ==========================================================================*/
+
+.outline {
+	outline: solid #B0A0FC;
+	font-size: 18px;
+	
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.outline:hover {
+	outline: solid #B0A0FC;
+	font-size: 18px;
+	opacity: 0.2;
+	
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+/*==== radius ==========================================================================*/
+.radius {
+	border: 3px solid #c788a0;
+	border-radius: 10px;
+	font-size: 18px;
+	
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+.radius2 {
+	border: 3px solid #c788a0;
+	border-radius: 50px;
+	font-size: 18px;
+	
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+
+
+.radius3 {
+	border: 3px solid #c788a0;
+	border-radius: 50%;
+	width: 400px;
+	height: 400px;
+	
+	font-size: 18px;
+	text-align: center;
+	
+	padding: 63px;
+	margin: 0px 30px 30px 0px;
+}
+
+
+
+/*==== box-shadow ==========================================================================*/
+
+.shadow {
+	border: 2px solid #000;
+	box-shadow: 1px 1px 10px 5px rgb(105, 207, 79);
+	margin-bottom: 30px;
+}
+
+.shadow2 {
+	border: 2px solid #000;
+	box-shadow: inset 1px 1px 10px 5px rgb(207, 79, 207);
+	margin-bottom: 30px;
+}
+
+.shadow3 {
+	border: 2px solid #000;
+	box-shadow: inset 1px 1px 10px 5px rgb(207, 79, 207), 1px 1px 10px 5px rgb(64, 250, 17);
+	margin-bottom: 30px;
+}
+
+.subtitlesub {
+	margin-bottom: 11px;
+}
+
+.radius4 {
+	box-shadow: inset 10px 10px 10px 10px #c788a0, 10px 10px 10px 10px #3dc000;
+}
+
+.radius4:hover {
+	box-shadow: inset 10px 10px 10px 10px #5ca15f, 10px 10px 10px 10px #c06600;
+}
+
+.block-bot {
+	margin-bottom: 40px;
+}
+
+.subtitle__bot {
+	margin-bottom: 30px;
+}
+
+.link__text {
+	font-size: 20px;
+	border: 5px solid #b95552;
+	box-shadow: 1px 1px 10px 5px #FCA310;
+}
+
+.link__text:hover {
+	color: rgb(212, 57, 205);
+	border: 5px solid #59a824;
+	box-shadow: 1px 1px 10px 5px #1020fc;
+}
+
+
+.link__text2 {
+	font-size: 20px;
+	border-bottom: 5px dashed #b95552;
+}
+
+.link__text2:hover {
+	font-size: 20px;
+	border-bottom: 5px dashed #4ae03d;
+	color: #B0A0FC;
+}
+
+.link__text3 {
+	font-size: 20px;
+	border-bottom: 5px double #700414;
+}
+
+.link__text3:hover {
+	font-size: 20px;
+	border-bottom: 5px double #0510aa;
+	color: #e92721;
+}
+
+.link__text4 {
+	font-size: 20px;
+	border-bottom: 5px dotted #e6b2c7;
+}
+
+.link__text4:hover {
+	font-size: 20px;
+	border-bottom: 5px dotted #58FEDB;
+	color: #FC7000;
+}
+
+
+
+.link__text,
+.link__text2,
+.link__text3 {
+	margin-right: 20px;
+}
+
+.block__link {
+	margin-bottom: 20px;
+}
+
+.block__link-text {
+	font-size: 20px;
+}
+
+.block__hover {
+	margin-bottom: 50px;
+}
+
+/*==== opasity ==========================================================================*/
+.block-5 {
+	margin-bottom: 50px;
+}
+
+.block__opacity {
+	border: 3px solid rgb(90, 1, 78);
+	padding: 15px;
+	opacity: 0.2;
+
+	font-family: "Exo 2";
+}
+
+.title__main {
+	margin-bottom: 10px;
+}
+
+.opac {
+	
+	color: rgb(60, 255, 0);
+	font-size: 30px;
+}
+
+.radius-span {
+	margin-bottom:15px;
+	
+}
+
+.span__radius {
+	border: 3px solid rgb(247, 222, 2);
+	box-shadow: inset 1px 1px 1px 1px #000;
+	border-radius: 10px;
+	font-size: 20px;
+	
+}
+
+/*==== ilain-block =====================================================================================*/
+
+.block-6 {
+	margin-bottom: 60px;
+}
+
+.block-7 {
+	display: block;
+	
+}
+
+.span__radius7 {
+	border: 3px solid rgb(136, 30, 236);
+	border-radius: 10px;
+	box-shadow: 3px 3px 10px 1px #FB7D79;
+	font-size: 25px;
+	display: inline-block;
+	padding: 15px;
+	margin-bottom: 100px;
+}
+
+.block__subtitle {
+	margin-bottom: 10px;
+}
+
+/*==== дом. работа ===============================================================================================*/
+
+
+
+.homework__title,
+.opacity__title,
+.border__title
+{
+	font-size: 35px;
+	padding-left: 40px;
+	margin-bottom: 20px;
+}
+
+.circle {
+	width: 200px;
+	height: 200px;
+	border: 2px solid #000;
+	border-radius: 50%; 
+	margin-bottom: 40px;
+	
+}
+
+.circle:hover {
+	width: 200px;
+	height: 200px;
+	border-top: 2px solid rgb(243, 194, 48);
+	border-right: 2px solid #82CC00;
+	border-bottom: 2px solid rgb(238, 78, 4);
+	border-left: 2px solid rgb(27, 15, 97);
+	border-radius: 50%; 
+}
+
+.homework__subtitle,
+.opacity__text
+{
+	font-family: 'Kurale';
+	font-size: 20px;
+	
+	margin-bottom: 15px;
+}
+
+/*==== задача №-2 ================================================================================*/
+.opacity {
+	border: 2px solid rgb(153, 0, 255);
+	padding: 15px;
+	opacity: 50%;
+	margin-bottom: 40px;
+
+	font-family: 'Kurale';
+}
+
+/*==== задача №-3 ================================================================================*/
+.span__border-text {
+	border: 2px solid #9C4803;
+	display: inline-block;
+	padding: 15px;
+	margin-bottom: 40px;
+
+	font-family: 'Kurale';
+	font-size: 20px;
+}
+
+/*==== задача №-4 ================================================================================*/
+.border__collor-text {
+	border-top: 4px solid rgb(248, 1, 1);
+	border-right: 6px dotted rgb(250, 225, 0);
+	border-bottom: 4px dashed rgb(50, 252, 0);
+	border-left: 8px double rgb(255, 0, 242); 
+	
+
+	font-family: 'Kurale';
+	font-size: 20px;
+	margin-bottom: 40px;
+}
+
+/*==== задача №-5 ================================================================================*/
+.block__link {
+	margin-bottom: 50px;
+}
+
+.opt {
+	margin-bottom: 40px;
+}
+
+.link {
+	border: 2px solid #9C4803;
+	font-size: 25px;
+	padding: 20px;
+	
+
+	color:#FCA310;
+
+	box-shadow: 10px 10px 10px 2px rgba(9, 219, 209, 0.2) inset,
+	10px 10px 10px 2px rgba(8, 235, 159, 0.2);
+}
+
+.link:hover {
+	color:rgb(250, 17, 230);
+}
+
